@@ -1,0 +1,500 @@
+body,h1,h2,h3,h4,h5,h6,header,artical,section,footer,p{
+	margin:0px;
+	padding:0px;
+	display:block;
+	
+
+
+}
+html{
+}
+h1{
+	font-size:32px;
+}
+h2{
+	font-size:22px;
+}
+p{
+	font-size:14px;
+}
+a{
+	color:black;
+	text-decoration:none;
+	
+	
+}
+ul{
+	margin:0px;
+	padding:0px;
+}
+li{
+	list-style:none;
+}
+
+.clear{
+	clear:both;
+}
+header{
+	width:100%;
+	float:left;
+	
+}
+.row-header-top {
+  background: none repeat scroll 0 0 #414141;
+  width: 100%;
+  float: left;
+}
+.row-header-top-left{
+	width:40%;
+	color:white;
+	float:left;
+}
+
+.row-header-top-left ul li a {
+  color: white;
+  float: left;
+  margin-left: 20px;
+  padding: 18px;
+}
+.row-header-top-left ul li a:hover{
+	opacity:.8;
+	color:#FEBA16;
+}
+.row-header-top-right {
+  float: left;
+  margin-left: 265px;
+  width: 40%;
+}
+.row-header-top-right-register {
+  background: none repeat scroll 0 0 #feba16;
+  border-radius: 10px;
+  float: left;
+  margin-top: 11px;
+}
+.row-header-top-right-register h3 {
+  color: white;
+  padding: 10px;
+}
+.row-header-top-right-register h3:hover{
+	opacity:.7;
+	color:black;
+}
+.row-header-top-right-icon {
+  float: left;
+  margin-left: 24px;
+  width: 60%;
+}
+.row-header-top-right-icon img {
+  height: 52px;
+  margin-left: 17px;
+  margin-top: 7px;
+  width: 50px;
+  border-radius: 25px;
+}
+.row-header-top-right-icon img:hover{
+	  border-radius: 25px;
+	  width: 50px;
+	  opacity:.8;
+	 
+	  
+}
+.row-header-mid {
+	width:100%;
+	
+	float:left;
+	height:300px;
+}
+.row-header-mid img {
+	width:100%;
+	
+	
+	height:100%;
+}
+.row-header-mid:hover{
+	
+	opacity:.9;
+}
+
+.row-header-bottom {
+  background: none repeat scroll 0 0 #e7eaef;
+  width: 100%;
+  float: left;
+}
+nav{
+	width:70%;
+	margin:0 auto;
+}
+
+.row-header-bottom nav ul li a {
+  color: gray;
+  float: left;
+  font-family: "Ledger";
+  font-size: 20px;
+  margin: 7px;
+  padding: 10px 14px;
+}
+.row-header-bottom nav ul li a:hover{
+	  border: 1px solid #FEBA16;
+	  color:#FEBA16;
+	  padding: 10px 14px;
+	  margin: 7px;
+
+}
+.row-header-bottom nav ul li.active1 a{
+	 border: 1px solid #FEBA16;
+	 color:#FEBA16;
+}
+
+
+article{
+	width:80%;
+	font-family:"Ledger";
+	margin:0 auto;
+	
+	
+}
+.artical-top{
+	width:90%;
+	margin:0 auto;
+	margin-bottom:50px;
+}
+
+.artical-top h1 {
+  color: #f56042;
+  font-size: 29px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+.artical-top p{
+	text-align:center;
+	color:#3a444d;
+	font-size:17px;
+}
+.artical-bottom{
+	width:100%;
+	
+}
+.artical-bottom-content {
+  float: left;
+  margin-bottom: 35px;
+  margin-left: 66px;
+  margin-right: 33px;
+  width: 40%;
+}
+.artical-bottom-content-img{
+	width:70px;
+	height:70px;
+	border:6px double #E9E9E9;
+	float:left;
+	
+	border-radius:50%;
+	margin-right:30px;
+	margin-bottom:30px;
+	
+}
+.artical-bottom-content-img:hover{
+	background: #FEBA16;
+}
+.artical-bottom-content-img img{
+	width:12px;
+	height:30px;
+	margin:20px 22px 20px 30px;
+	border:1px solid gray;
+	
+	
+}
+.artical-bottom-content h1 {
+  color: #FEBA16;
+  font-family: "Ledger";
+  margin-bottom: 20px;
+}
+.artical-bottom-content p{
+	color:#464e55;
+	font-family:"Ledger";
+}
+section{
+	float:left;
+	width:100%;
+}
+.product{
+
+	width:90%;
+	margin:0 auto;
+}
+.product h1 {
+  color: #feba16;
+  font-family: "Ledger";
+  font-size: 25px;
+  margin-bottom: 49px;
+  margin-top: 47px;
+  padding-bottom: 7px;
+  text-transform: uppercase;
+  width: 400px;
+  word-spacing: 8px;
+}
+
+.our-product-coll {
+  background: url("images/New-Website-Background.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border-radius: 5% 5% 0% 0% ;
+  height: 450px;
+  width: 30%;
+  margin-left:25px;
+  float:left;
+  margin-bottom:25px;
+}
+.image-part {
+  height: 326px;
+  width: 100%;
+  position:relative;
+}
+.image-part img {
+  border-radius: 2%;
+  box-shadow: 3px 13px 9px gray;
+  height: 300px;
+  left: 4px;
+  position: absolute;
+  top: 5px;
+  width: 97%;
+}
+.image-part h3 {
+  background: none repeat scroll 0 0 #fab91c;
+  color: white;
+  height: 28px;
+  padding: 4px;
+  position: absolute;
+  text-align: center;
+  top: 250px;
+  width: 80px;
+   font-family: "Ledger";
+   text-shadow: 4px 4px 2px graytext;
+}
+.image-part h3:hover{
+	background:rgba(0,0,0,.45);
+	border:1px solid white;
+	color:#fab91c;
+}
+
+.our-product-coll p {
+  margin-bottom: 12px;
+  text-align: center;
+  text-shadow: 5px 5px 3px gray;
+}
+.our-product-coll span {
+  color: red;
+  font-size: 24px;
+  line-height: 1.4;
+  margin-left: 157px;
+  text-align: center;
+  text-shadow: 5px 5px 3px gray;
+}
+.our-product-coll h4 {
+  background: none repeat scroll 0 0 #f56042;
+  border: 1px solid white;
+  box-shadow: 3px 8px 9px gray;
+  color: white;
+  font-size: 18px;
+  height: 35px;
+  line-height: 1.7;
+  margin-left: 125px;
+  margin-top: 4px;
+  text-align: center;
+  text-shadow: 5px 4px 2px graytext;
+  width: 119px;
+}
+.our-product-coll h4:hover{
+
+	background:#fab91c;
+	
+}
+
+.image-part-1 {
+  height: 326px;
+  width: 100%;
+  position:relative;
+}
+.image-part-1 img {
+  border-radius: 2%;
+  box-shadow: 3px 13px 9px gray;
+  height: 300px;
+  left: 4px;
+  position: absolute;
+  top: 5px;
+  width: 97%;
+}
+.discount-part {
+  
+  
+}
+.discount-part h3 {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.45);
+  color: white;
+  font-family: "Ledger";
+  font-size: 24px;
+  height: 84px;
+  padding: 4px;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  width: 151px;
+  text-shadow: 4px 4px 2px graytext;
+}
+.discount-part h4 {
+  background: none repeat scroll 0 0 #fec439;
+  left: 8px;
+  margin-left: 0;
+  position: absolute;
+  top: 41px;
+}
+span.line-through {
+  float: left;
+  margin-left: 106px;
+  text-decoration: line-through;
+  width: 76px;
+  color:black;
+}
+span.cost-normal {
+  margin-left: 0;
+  width: 50px;
+}
+
+.image-part-2 {
+  height: 326px;
+  width: 100%;
+  position:relative;
+}
+.image-part-2 img {
+  border-radius: 2%;
+  box-shadow: 3px 13px 9px gray;
+  height: 300px;
+  left: 4px;
+  position: absolute;
+  top: 5px;
+  width: 97%;
+}
+.image-part-2 h3 {
+  background: none repeat scroll 0 0 #fab91c;
+  color: white;
+  font-family: "Ledger";
+  height: 28px;
+  left: 0;
+  padding: 4px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 4px 4px 2px graytext;
+  top: 246px;
+  width: 80px;
+}
+.image-part-2 h3:hover{
+	background:rgba(0,0,0,.45);
+	border:1px solid white;
+	color:#fab91c;
+}
+
+footer{
+	width:100%;
+	background:#8a8a8a;
+	float:left;
+	color:white;
+}
+.footer-top{
+	width:90%;
+	margin:0 auto;
+	margin-top:30px;
+}
+.footer-top-col1-1 {
+  float: left;
+  margin-left: 7px;
+  margin-right: 27px;
+  width: 22%;
+}
+.footer-top-col1-1 ul>li{
+	list-style:square;
+	color:#FEBA16;
+}
+.footer-top-col1-1 ul li a {
+  border-bottom: 1px dotted #e5e5ef;
+  color: #e5e5ef;
+  line-height: 2;
+}
+
+.footer-top-col1-1 p{
+	color:#e5e5ef;
+}
+.footer-top-col1-1 h1{
+	color:#f7f7f8;
+}
+h2.footer-top-col1-heading {
+  border-bottom: 1px solid #fffff3;
+  color: #f6cd6a;
+  line-height: 1.7;
+  margin-bottom: 12px;
+  width: 183px;
+}
+.tweets-info img {
+  float: left;
+  height: 100px;
+  margin-bottom: 27px;
+  margin-left: 31px;
+  margin-right: 16px;
+  width: 100px;
+  border-radius: 50%;
+}
+.tweets-info{
+	float:left;
+}
+.tweets-info p{
+	float:left;
+}
+.footer-mid {
+  float: right;
+  margin-bottom: 14px;
+  margin-right: 109px;
+  width: 40%;
+}
+.footer-mid img {
+  border-radius: 3%;
+  float: right;
+  height: 47px;
+  margin-left: 10px;
+  width: 67px;
+}
+.partner-part {
+  margin: 13px auto;
+  width: 90%;
+}
+.partner-part h1 {
+  border-bottom: 1px solid #e5e5ef;
+  color: #f6cd6a;
+  font-family: lota;
+  font-size: 25px;
+  margin-bottom: 40px;
+  width: 200px;
+}
+
+
+.partner-part-image img {
+  border-radius: 16px;
+  float: left;
+  height: 100px;
+  margin-bottom: 38px;
+  margin-left: 80px;
+  width: 130px;
+}
+.partner-part-image img:hover{
+	opacity:.8;
+}
+.footer-bottom{
+	background:#1F1F1F;
+}
+.footer-bottom p{
+	padding:20px 0px 20px 0px;
+	text-align:center;
+	color:white;
+}
+p.footer-bottom-para{
+	color:white;
+}
+.footer-bottom p span{
+	color:#fabd29;
+}
